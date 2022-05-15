@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  /* padding: 0; */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.header {
+  /* padding: 40px; */
+  background-color: blueviolet;
+  height: 15vh;
+  line-height: 36px;
+}
+.header__logo {
+  width: 3rem;
+  position: absolute;
+  left: 0;
+}
+
+.header__left {
+  float: left;
+  vertical-align: middle;
+}
+.header__right {
+  float: right;
+  padding-top: 1.7rem;
+  padding-right: 1.7rem;
+}
+ul > li {
+  display: inline-block;
+  color: white;
+  padding-right: 0.3rem;
+}
+ul > li > a {
+  color: white;
+}
+/******** NAV********/
+nav {
+  background-color: orange;
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+nav > ul > li {
+  padding-right: 2rem;
+  color: black;
+}
+nav > ul > li > a {
+  color: black;
+  font-weight: bolder;
+}
+/************ MAIN *********/
+main > p {
+  padding: 1rem 2rem;
+  text-align: justify;
+  font-weight: 400;
+}
+a.fixed {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+.fixed-logo {
+  width: 2rem;
+}
+a.fixed:hover {
+  background-color: orange;
+  /* border: none; */
+  border-radius: 50px;
+  box-shadow: 1px 3px 15px 1px orange;
+}
